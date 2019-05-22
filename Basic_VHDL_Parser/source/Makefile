@@ -1,7 +1,5 @@
 APPS = assignment3
 
-#Change to your own student number
-STUDENT_NUMBER = 301209987
 
 OBJECTS = parserClasses.o assignment3.o
 HEADERS = parserClasses.h
@@ -18,6 +16,6 @@ clean:
 	$(RM) *.o $(APPS)
 
 tar:
-	tar -cf $(STUDENT_NUMBER).tar.gz Makefile *.cpp *.h
+	tar -cf Basic_VHDL_Parser.tar.gz Makefile *.cpp *.h
 
 
